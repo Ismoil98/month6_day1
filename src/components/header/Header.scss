@@ -1,0 +1,60 @@
+.header {
+    padding: 19px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo_link {
+        width: 178px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+            text-decoration: none;
+            color: #173A56;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    .nav {
+        width: 695px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .active {
+            font-weight: 700;
+            color: #2c3134;
+        }
+        a {
+            font-size: 16px;
+            color: #22343D;
+            &:hover {
+                color: #d85034;
+            }
+        }
+        button {
+            padding: 10px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 3px;
+            border: 1px solid rgb(100, 100, 100);
+            transition: all 0.4s ease;
+        }
+        .first {
+            &:hover {
+                color: white;
+                background-color:  rgb(100, 100, 100);
+            }
+        }
+        .second {
+            color: white;
+            border: 1px solid #02897A;
+            background-color: #02897A;
+            transition: all 0.4s ease;
+            &:hover {
+                color: #02897A;
+                background-color: white;
+            }
+        }
+
+    }
+}
