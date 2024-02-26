@@ -1,5 +1,7 @@
 .main {
     .product {
+        margin-bottom: 90px;
+        text-align: center;
         .title {
             width: 380px;
             margin-left: auto;
@@ -13,6 +15,7 @@
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
+            text-align: left;
             .item {
                 width: 240px;
                 transition: all 0.5s ease;
@@ -54,5 +57,43 @@
                 background-color: white;
             }  
         }
+    }
+    .strategies {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        text-align: center;
+        .title {
+            margin-bottom: 8px;
+        }
+        .info {
+            margin-bottom: 32px;
+        }
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .item {
+                border: 1px solid #DEDEDE;
+                border-radius: 10px;
+                &:hover {
+                    transition: all 0.5s ease;
+                    h3 {
+                        color: #02897A;
+                    }
+                }
+                div {
+                    text-align: left;
+                    width: 349px;
+                    padding: 24px 30px 40px 24px;
+                    p {
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .price {
+        
     }
 }
