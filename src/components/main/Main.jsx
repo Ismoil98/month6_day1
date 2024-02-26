@@ -6,7 +6,10 @@ import icon4 from '../../assets/main/icon4.png'
 import strategies1 from '../../assets/main/strategies1.png'
 import strategies2 from '../../assets/main/strategies2.png'
 import strategies3 from '../../assets/main/strategies3.png'
-
+import stars from '../../assets/main/stars.png'
+import avatar1 from '../../assets/main/avatar1.png'
+import avatar2 from '../../assets/main/avatar1.png'
+import avatar3 from '../../assets/main/avatar1.png'
 
 function Main() {
   return <div className='main'>
@@ -163,12 +166,23 @@ function Main() {
     <h2>
     What Clients Say
     </h2>
-    <p>
+    <p className='info'>
     Problems trying to resolve the conflict between 
 the two major realms of Classical physics: Newtonian mechanics 
     </p>
     <ul>
-      <li></li>
+      <li>
+        <img src={stars} alt="stars" />
+        <p>Product helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+      <div>
+        <img src={avatar1} alt="" />
+        <div>
+
+        </div>
+      </div>
+      </li>
     </ul>
   </div>
   </div>;
