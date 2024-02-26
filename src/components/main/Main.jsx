@@ -96,6 +96,80 @@ function Main() {
   <div className='price container'>
     <h2>Price Table</h2>
     <p>We offer competitive price</p>
+    <ul className='list'>
+      <li className='item'>
+        <h3>
+          Free
+        </h3>
+        <p>Brief price description</p>
+        <div>
+          <p className='proses'>
+            0
+          </p>
+          <data>
+          Per / month
+          </data>
+        </div>
+        <p>Only 2 Operators</p>
+        <p>Notifications</p>
+        <p>Landing Pages</p>
+        <button>
+          Order Now
+        </button>
+      </li>
+      <li className='item'>
+        <h3>
+          Free
+        </h3>
+        <p>Brief price description</p>
+        <div>
+          <p className='proses'>
+            0
+          </p>
+          <data>
+          Per / month
+          </data>
+        </div>
+        <p>Only 2 Operators</p>
+        <p>Notifications</p>
+        <p>Landing Pages</p>
+        <button>
+          Order Now
+        </button>
+      </li>
+      <li className='item'>
+        <h3>
+          Free
+        </h3>
+        <p>Brief price description</p>
+        <div>
+          <p className='proses'>
+            0
+          </p>
+          <data>
+          Per / month
+          </data>
+        </div>
+        <p>Only 2 Operators</p>
+        <p>Notifications</p>
+        <p>Landing Pages</p>
+        <button>
+          Order Now
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div className='clients container'>
+    <h2>
+    What Clients Say
+    </h2>
+    <p>
+    Problems trying to resolve the conflict between 
+the two major realms of Classical physics: Newtonian mechanics 
+    </p>
+    <ul>
+      <li></li>
+    </ul>
   </div>
   </div>;
 }
