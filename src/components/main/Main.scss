@@ -156,9 +156,11 @@
             justify-content: space-between;
             flex-wrap: wrap;
             li {
+                text-align: left;
+                width: 327px;
                 padding: 24px 28px;
             }
-            
+
         }
     }
 }

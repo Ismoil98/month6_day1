@@ -183,6 +183,31 @@ reach your financial goal.</p>
         </div>
       </div>
       </li>
+      <li>
+        <img src={stars} alt="stars" />
+        <p>Product helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+      <div>
+        <img src={avatar1} alt="" />
+        <div>
+
+        </div>
+      </div>
+      </li>
+      <li>
+        <img src={stars} alt="stars" />
+        <p>Product helps you see how many 
+more days you need to work to 
+reach your financial goal.</p>
+      <div>
+        <img src={avatar1} alt="" />
+        <div>
+          <h3>Wahid Ari</h3>
+          <p>Designer</p>
+        </div>
+      </div>
+      </li>
     </ul>
   </div>
   </div>;
