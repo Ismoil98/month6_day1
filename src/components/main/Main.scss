@@ -163,4 +163,21 @@
 
         }
     }
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #02897A;
+        border-radius: 32px;
+        padding: 10px;
+        div {
+            width: 510px;
+            p {
+                color: white;
+                font-size: 32px;
+                line-height: 48px;
+            }
+        }
+    }
 }

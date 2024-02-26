@@ -10,6 +10,7 @@ import stars from '../../assets/main/stars.png'
 import avatar1 from '../../assets/main/avatar1.png'
 import avatar2 from '../../assets/main/avatar1.png'
 import avatar3 from '../../assets/main/avatar1.png'
+import screen from '../../assets/main/screen.png'
 
 function Main() {
   return <div className='main'>
@@ -209,6 +210,17 @@ reach your financial goal.</p>
       </div>
       </li>
     </ul>
+  </div>
+  <div className='join container'>
+  <div>
+    <p>
+      Join 100 Compannies who boost their business with Product
+    </p>
+    <button>
+      Get This
+    </button>
+  </div>
+  <img src={screen} alt="" />
   </div>
   </div>;
 }
